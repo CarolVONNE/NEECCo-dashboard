@@ -1,0 +1,45 @@
+.neecco {
+    margin: 3rem !important
+}
+
+footer {
+    margin: 1rem;
+}
+
+dev-version {
+    background: red;
+    font-size: medium;
+    color: black;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #669900 !important;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #669900;
+    border-color:  #669900;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #4d7300;
+    border-color: #4d7300; /*set the color you want here*/
+}
+
+.container-type1 {
+    background-color: #ffffff;
+    border-color:  #ffffff;
+    border: 2px solid #F6F6F6;
+    padding: 25px 25px 25px 25px;
+    margin: 25px 25px 25px 25px;
+    box-shadow: 3px 3px #F6F6F6;
+}
