@@ -103,7 +103,7 @@ title = dbc.Container(
                                 )
                             ]
                         ),
-                        " In March 2023 it stated: “There are multiple, feasible and effective options to reduce greenhouse gas emissions and adapt to human-caused climate change, and they are available now… In 2018, IPCC highlighted the unprecedented scale of the challenge required to keep warming to 1.5°C. Five years later, that challenge has become even greater due to a continued increase in greenhouse gas emissions. The pace and scale of what has been done so far, and current plans, are insufficient to tackle climate change. ",
+                        " In March 2023 it stated: “There are multiple, feasible and effective options to reduce greenhouse gas emissions and adapt to human-caused climate change, and they are available now…“ In 2018, IPCC highlighted the unprecedented scale of the challenge required to keep warming to 1.5°C. Five years later, that challenge has become even greater due to a continued increase in greenhouse gas emissions. The pace and scale of what has been done so far, and current plans, are insufficient to tackle climate change. ",
                     ]
                 ),
                 html.P(
@@ -118,7 +118,7 @@ title = dbc.Container(
                                 )
                             ]
                         ),
-                        ". In June 2023 it stated “Our confidence in the UK meeting its goals from 2030 onwards is now markedly less than it was in our previous assessment a year ago.",
+                        ". In June 2023 it stated “Our confidence in the UK meeting its goals from 2030 onwards is now markedly less than it was in our previous assessment a year ago.“",
                     ]
                 ),
                 html.P(
@@ -304,13 +304,7 @@ carbon_budget = dbc.Container(
                                 target="_blank",
                             )
                         ),
-                        html.P(
-                            html.A(
-                                "Data Source: Department for Business, Energy & Industrial Strategy",
-                                href="https://www.gov.uk/government/statistics/uk-local-authority-and-regional-carbon-dioxide-emissions-national-statistics-2005-to-2019",
-                                target="_blank",
-                            )
-                        ),
+                        
                     ],
                     align="centre",
                 )

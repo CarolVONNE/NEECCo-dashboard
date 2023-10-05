@@ -40,7 +40,18 @@ title = dbc.Container(
         dbc.Row(
             [
                 html.P(
-                    'Defra’s Pollution Forecast map is more accessible than their "interactive tool allows you to explore ambient air quality concentration data from Defra\'s national Pollution Climate Mapping modelling." The Clean Air Hub brought to you by Global Action Plan gives a broader context. '
+                    'A very wide range of information is available including via ERIC, the region’s Environmental Records and Information Centre. With new public sector Duties and strategies around nature the regional Biodiversity Audit produced in 2001 provides an important source of longer term perspectives.'
+                ),
+                
+                html.P(
+                    [
+                        "Long term perspectives are available for the weather patterns in Durham City, where data has been gathered for more than 140 years. The Environment Agency’s (established in 1996) portal provides access to a considerable range of data."
+                    ]
+                ),
+                html.P(
+                    [
+                        "Defra’s Pollution Forecast map is an \"interactive tool (that) allows you to explore ambient air quality concentration data from Defra's national Pollution Climate Mapping modelling.\" The Clean Air Hub, brought to you by Global Action Plan, gives a broader context."
+                    ]
                 ),
                 html.P(
                     [
@@ -55,11 +66,6 @@ title = dbc.Container(
                         ),
                     ]
                 ),
-                html.P(
-                    [
-                        "A very wide range of sources are available including ERIC – our own Environmental Records and Information Centre. With new public sector Duties and strategies around nature the regional Biodiversity Audit produced in 2001 provides an important source of longer term perspectives. Long term perspectives are available for the weather patterns in Durham City, where data has been gathered for more than 140 years. The Environment Agency’s (established in 1996) portal provides access to a considerable range of data."
-                    ]
-                ),
             ]
         ),
         dbc.Row(
@@ -68,7 +74,6 @@ title = dbc.Container(
                     html.H4("Page content"),
                     html.Ul(
                         [
-                            html.Li(html.A(html.P("Clean air"), href="#section1")),
                             html.Li(
                                 html.A(
                                     html.P(
@@ -88,6 +93,7 @@ title = dbc.Container(
                                     href="#section4",
                                 )
                             ),
+                            html.Li(html.A(html.P("Clean air"), href="#section1")),
                         ]
                     ),
                 ]
@@ -366,10 +372,10 @@ layout = dbc.Container(
                 dbc.Col(
                     [
                         title,
-                        clean_air,
                         atlases_repositories,
                         changing_weather,
                         ea,
+                        clean_air,
                     ]
                 )
             ]

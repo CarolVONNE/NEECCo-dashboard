@@ -273,7 +273,7 @@ indicators = dbc.Container(
                             "There is much debate – and little agreement – over what a ‘just transition’ would be and how it could happen."
                         ),
                         html.P(
-                            "Some people we must ensure the transition to a post-carbon economy addresses the deep structural inequalities in our society. In doing this we can draw on the lessons of our region’s transition to a post-industrial society at the end of 20th century."
+                            "Some people say we must ensure the transition to a post-carbon economy addresses the deep structural inequalities in our society. In doing this we can draw on the lessons of our region’s transition to a post-industrial society at the end of 20th century."
                         ),
                         html.P(
                             "For others the idea is irrelevant. They believe we can address the climate crisis and ecological breakdown without considering social structures."

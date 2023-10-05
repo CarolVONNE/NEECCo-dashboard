@@ -257,7 +257,7 @@ neecco = dbc.Container(
                             "Working with NEECCo in a new pilot project, Groundwork NE & Cumbria collaborated in partnership with Northumbria University to count the carbon locked up in the habitats and land cover types of the North East. This project supports NEECCo's promise to respond to the climate emergency by empowering the region with knowledge and resources to deliver change. Improving our understanding of carbon sequestration and storage is imperative if we are to meet the goals in the Paris climate agreement, and in North East England this understanding will need to be at the heart of decision making on land management in the environment."
                         ),
                         html.P(
-                            "With thanks to Dr Andy Suggitt, Northumbria University and Gaby McKay Jones."
+                            "With thanks to Dr Andy Suggitt, Northumbria University and Gaby McKay Jones, Groundwork North East."
                         ),
                     ],
                     xs=12,
